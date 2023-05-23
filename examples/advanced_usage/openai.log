@@ -1,0 +1,35 @@
+[2023-05-16.00:35:52]
+Request:
+{
+  "messages": [
+    {
+      "content": "Do you know Elon Musk?",
+      "role": "user"
+    }
+  ],
+  "model": "gpt-3.5-turbo"
+}
+[2023-05-16.00:35:52]
+Response:
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "Yes, Elon Musk is a well-known entrepreneur and innovator, known for his work with Tesla, SpaceX, and other companies. He is also known for his ambitious goals related to space exploration and sustainable energy.",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1684188620,
+  "id": "chatcmpl-7Gai7f3HaaW2vV4XqkaDh1gVCaw4S",
+  "model": "gpt-3.5-turbo-0301",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 42,
+    "prompt_tokens": 14,
+    "total_tokens": 56
+  }
+}
+
